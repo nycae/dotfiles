@@ -14,4 +14,15 @@
 !.vimrc
 
 # GOPATH directory
-!go/**/.gitkeep
+go/*
+go/src/*
+go/pkg/*
+go/bin/*
+
+!go/
+!go/src
+!go/pkg
+!go/bin
+!go/src/.gitkeep
+!go/pkg/.gitkeep
+!go/bin/.gitkeep
