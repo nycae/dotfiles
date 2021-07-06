@@ -1,0 +1,17 @@
+# Let's start by ignore everything!
+*
+
+# Now the files that I want to pick
+# Git ignore file
+!.gitignore
+
+# Bash config!
+!.bashrc
+!.bash_aliases
+
+# Vim config & plugins!
+!.vim/
+!.vimrc
+
+# GOPATH directory
+!go/**/.gitkeep
