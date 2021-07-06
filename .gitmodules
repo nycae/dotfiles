@@ -1,6 +1,6 @@
 [submodule "/home/nycae/.vim/bundle/Vundle.vim"]
 	path = /home/nycae/.vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
-[submodule "/home/nycae/.vim/pack/plugins/start/vim-go"]
-	path = /home/nycae/.vim/pack/plugins/start/vim-go
+[submodule "/home/nycae/.vim/bundle/vim-go"]
+	path = /home/nycae/.vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
