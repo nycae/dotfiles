@@ -7,3 +7,4 @@
 [submodule "/home/nycae/.vim/bundle/ayu-vim"]
 	path = /home/nycae/.vim/bundle/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim.git
+
