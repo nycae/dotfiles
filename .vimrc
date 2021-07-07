@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'faith/vim-go', { 'do': ':GoInstallBinaries' }
 Plugin 'ayu-theme/ayu-vim'
+Plugin 'arcticicestudio/nord-vim'
 
 call vundle#end()
 
@@ -24,13 +25,11 @@ let g:go_fmt_autosave = 1
 let g:go_fmt_command = "goimports"
 
 " If annoyed by autosuggestion delete this
-au FileType go inoremap <buffer> . .<C-x><C-o>
-set completeopt-=preview
+" au FileType go inoremap <buffer> . .<C-x><C-o>
+" set completeopt-=preview
 
 " Themes bc I'm a piece of shit
-set termguicolors
-let ayucolor="mirage"
-colorscheme ayu
+colorscheme nord
 
 " Default config
 :set tabstop=4
@@ -59,6 +58,3 @@ au FileType hpp set noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
 let g:netrw_banner=0
 let g:netrw_liststyle=3
 let g:netrw_browse_split=2
-" let g:netrw_altv=2
-let g:netrw_winsize=20
-" let g:netrw_winsize=85
