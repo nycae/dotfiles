@@ -26,3 +26,7 @@ go/bin/*
 !go/src/.gitkeep
 !go/pkg/.gitkeep
 !go/bin/.gitkeep
+
+# Tmux stuff
+!.tmux.conf
+

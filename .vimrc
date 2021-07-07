@@ -37,7 +37,7 @@ colorscheme ayu
 :set shiftwidth=4
 :set number
 
-" au BuffReadPost *.hcl set syntax=tf
+" File specific config
 au FileType make set noexpandtab shiftwidth=4 tabstop=4 softtabstop=0
 au FileType yaml set expandtab tabstop=2 shiftwidth=2 softtabstop=0
 au FileType html set expandtab tabstop=2 shiftwidth=2 softtabstop=0
@@ -54,3 +54,11 @@ au FileType cc set noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
 au FileType c set noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
 au FileType h set noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
 au FileType hpp set noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
+
+" Banner config
+let g:netrw_banner=0
+let g:netrw_liststyle=3
+let g:netrw_browse_split=2
+" let g:netrw_altv=2
+let g:netrw_winsize=20
+" let g:netrw_winsize=85

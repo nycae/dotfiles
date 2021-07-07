@@ -8,3 +8,6 @@
 	path = /home/nycae/.vim/bundle/ayu-vim
 	url = https://github.com/ayu-theme/ayu-vim.git
 
+[submodule "/home/nycae/.tmux/plugins/tpm"]
+	path = /home/nycae/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
