@@ -6,11 +6,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'faith/vim-go', { 'do': ':GoInstallBinaries' }
-Plugin 'ayu-theme/ayu-vim'
-Plugin 'arcticicestudio/nord-vim'
+Plugin 'faith/vim-go'
 
 call vundle#end()
+
 
 filetype plugin indent on
 
@@ -29,7 +28,7 @@ let g:go_fmt_command = "goimports"
 " set completeopt-=preview
 
 " Themes bc I'm a piece of shit
-colorscheme nord
+colorscheme slate
 
 " Default config
 :set tabstop=4
