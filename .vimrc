@@ -7,6 +7,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'faith/vim-go'
+Plugin 'joshdick/ondark.vim'
 
 call vundle#end()
 
@@ -28,7 +29,7 @@ let g:go_fmt_command = "goimports"
 " set completeopt-=preview
 
 " Themes bc I'm a piece of shit
-colorscheme slate
+colorscheme delek
 
 " Default config
 :set tabstop=4
