@@ -128,3 +128,7 @@ export NVM_DIR="$HOME/.nvm"
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
+. "$HOME/.cargo/env"
+
+export GOOGLE_APPLICATION_CREDENTIALS=/home/nycae/Configs/api-core.json
+export GOPRIVATE=bitbucket.org/topdoctors

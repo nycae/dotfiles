@@ -7,7 +7,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'faith/vim-go'
-Plugin 'joshdick/ondark.vim'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 
@@ -29,12 +30,14 @@ let g:go_fmt_command = "goimports"
 " set completeopt-=preview
 
 " Themes bc I'm a piece of shit
-colorscheme delek
+let g:seoul256_background = 235
+colo seoul256
 
 " Default config
 :set tabstop=4
 :set shiftwidth=4
 :set number
+:set textwidth=120
 
 " File specific config
 au FileType make set noexpandtab shiftwidth=4 tabstop=4 softtabstop=0
